@@ -15,7 +15,7 @@
     "url": "git+https://github.com/JSeed/cloud-foxy.git"
   },
   "dependencies": {
-    "inquirer": "^6.2.1",
+    "inquirer": "^7.0.0",
     "inquirer-autocomplete-prompt": "^1.0.1"
   }
 }
