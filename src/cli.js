@@ -4,9 +4,9 @@ const run = require('./index');
 
 async function start() {
     try {
-        run();
+        await run();
     } catch(err) {
-        console.error(`Error: ${err}`);
+        console.error(`Error: ${err.message}`);
         return -1;
     }
 }

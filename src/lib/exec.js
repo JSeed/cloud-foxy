@@ -6,10 +6,7 @@ const {
 module.exports = (command) => new Promise((resolve, reject) => {
   exec(command, (err, stdout) => {
     if (err) {
-      return reject({
-        err,
-        stdout
-      });
+      return reject(err);
     }
     return resolve(stdout);
   });
