@@ -1,6 +1,6 @@
 {
   "name": "cloud-foxy",
-  "version": "0.0.2-rc.2",
+  "version": "0.0.3",
   "author": "Jonathan Seed <jonathan.j.seed@gmail.com>",
   "license": "MIT",
   "main": "src/cli.js",
